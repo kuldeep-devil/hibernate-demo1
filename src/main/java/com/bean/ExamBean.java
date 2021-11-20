@@ -30,7 +30,7 @@ public class ExamBean {
     @JoinColumn(name = "eid")
     List<QuestionBean>  questions;
     
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL) 
     @JoinColumn(name = "eid")
     List<StudentExamBean>  studentExamBean;
 
