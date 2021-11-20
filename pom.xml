@@ -7,14 +7,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>hibernate-demo Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  
+ 
    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.3.12.RELEASE</spring.version>
     </properties>
-  
-  
-  
+	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -30,8 +28,6 @@
 	</dependency>
 
 	<!-- Spring web -->
-        
- 
         <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
         <dependency>
             <groupId>javax.servlet</groupId>
